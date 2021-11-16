@@ -2,3 +2,4 @@ deps.zig
 .gyro/
 zig-cache
 zig-out
+build/
