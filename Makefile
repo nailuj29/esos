@@ -13,7 +13,7 @@ limine:
 
 .PHONY: kernel
 kernel:
-	cd kernel; gyro build; cd ..
+	cd kernel && gyro build && cd ..
 
 $(ISO_IMAGE): limine kernel
 	rm -rf iso_root
